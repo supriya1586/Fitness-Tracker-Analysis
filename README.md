@@ -65,4 +65,9 @@ Above models were implemented in combination with below four cases.
 3.	Using new features formed by Principal Component Analysis
 4.	Using all features in dataset
 
+ ![image](https://user-images.githubusercontent.com/87475754/143394883-14afb7cd-4039-41a4-b022-25547aa8e473.png)
+
+
+Figure 5. 17: Comparative performances of predictions from different models after features selection with recursive features selection using estimator as RandomForestRegressor
+
 
