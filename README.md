@@ -10,6 +10,10 @@ Overall, the key objectives can be summed up as following:
 •	Use different machine learning models to forecast the realistic goal in the form of daily total step count that can be achieved
 •	Comparing the performances of different combinations of models and features selection methods for them
 
+**Dataset**
+This project used Fitbit records available publicly on Zenodo.org (Furberg et al., 2016) to analyse and correlate. The personal tracking data consists of thirty different users records over the duration of two months. During March 12th and May 12th, 2016, users participated in a distributed survey via Amazon Mechanical Turk and generated two monthly datasets, each consisting of eleven and eighteen csv files. Thirty Fitbit users participated to provide data from their personal trackers, which comprised of per minute output for physical activity, heart rate, and sleep tracking. The data set in question is provided anonymously by the users and might have come from all over the world. Unfortunately, not knowing gender, age, or location limited the scope of analysis that could be performed.
+
+
 **Data Pre processing**
 Records for days in which Fitbit was not worn were deleted. The resultant data was grouped by user id and date. Spreadsheets from both periods were concatenated and Ids were replaced by generic names. ‘ActivityDate’ column was converted to Datetime datatype. Empty cells were replaced by zeros.
 
