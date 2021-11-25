@@ -28,6 +28,12 @@ WeightPounds and BMI columns were taken into account for plotting weight informa
 ![image](https://user-images.githubusercontent.com/87475754/143394103-4a331807-6a94-4ffd-aae6-42b663d60a19.png)
 
 
+ 
+
+Comparative performances of predictions from different models after features selection with recursive features selection using estimator as RandomForestRegressor
+
+
+
 **Heart rate and weight data combined analysis**
 Heart risk was also tried to be predicted by combining heart rate and weight records together. For this Ids who have records in both the sheets were picked and their corresponding information was merged in a single dataset. Unnecessary columns like 'WeightPounds','Fat','LogId', 'IsManualReport','Date' were dropped.  Records having value 0 for any remaining column were removed. Duplicate id records were removed. According to original objective of this study, heart risk was supposed to be predicted on the information if users do not have normal BMI which is 20 – 24 and normal resting heart rate which is 60 – 100 beats per minute. However, after cleaning the data only 5 proper records were left which were not sufficient to make any predictions. 
 
